@@ -88,6 +88,7 @@ public class SampleActionTest {
 		String result = action.execute(request);
 		verify(request);
 
-		assertTrue("./WEB-INF/result.jspz".equals(result));
+		assertTrue("./WEB-INF/result.jsp".equals(result));
 	}
+	
 }
